@@ -1,0 +1,21 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-message {
+    width: 45rem;
+}
+
+.contact-submit {
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #293f8e;
+    height: 2.5rem;
+}

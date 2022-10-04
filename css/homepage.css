@@ -1,0 +1,47 @@
+.eventContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 32px;
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e3e3e3;
+    margin-top: 1rem;
+}
+
+.eventImageContainer {
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    width: 100%;
+    height: 18rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 16px;
+}
+
+.eventOne {
+    background-image: url("../resources/images/underWater.png");
+}
+
+.eventTwo {
+    background-image: url("../resources/images/beach.png");
+}
+
+.eventTitle {
+    color: #FFFFFF;
+}
+
+.textContainer {
+    display: flex;
+    margin: 16px 0px 8px 16px;
+    padding-right: 16px
+}
+
+@media (max-width:800px){
+
+    .eventContainer {
+        width: 95%;
+    }
+}

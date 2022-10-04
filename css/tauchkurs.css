@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 2rem 0rem 2rem;}   
+
+.einleitung{
+    justify-content: center;
+    width: 100%;
+}    
+
+.tauchkurs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+    width: 80%;
+}
+
+.table {
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+
+
+.end{
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+img.picture {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+
+@media (max-width:800px){
+    img.picture {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+}    
